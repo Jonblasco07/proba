@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Hauteskundeak {
 
-	private ArrayList<String> mahaiak = new ArrayList<String>();
+	private ArrayList<String> mahaiak = new ArrayList<>();
 
 	@Override
 	public String toString() {
@@ -27,6 +27,8 @@ public class Hauteskundeak {
 		h2021.gehituMahaia("Bergara");
 		h2021.gehituMahaia("Andoain");
 		h2021.gehituMahaia("Hernani");
+		h2021.gehituMahaia("Amorebieta");
+
 
 
 		System.out.println(h2021);
